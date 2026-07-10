@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Tehreem Kitchen - Authentic Pakistani Cuisine">
+    <meta name="theme-color" content="#ff8c00">
+    <title>Tehreem Kitchen - Flavorful Pakistani Food</title>
+    <link rel="manifest" href="manifest.json">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="images/icon-192.png" type="image/png">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <h1>🍴 Tehreem Kitchen</h1>
+            </div>
+            <nav class="nav">
+                <button class="nav-toggle" onclick="toggleMenu()">☰ Menu</button>
+                <ul class="nav-list" id="navList">
+                    <li><a href="#home" class="active">Home</a></li>
+                    <li><a href="#daily-menu">Daily Menu</a></li>
+                    <li><a href="#full-menu">Full Menu</a></li>
+                    <li><a href="#order">Order Now</a></li>
+                    <li><a href="#catering">Catering</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <h2>Authentic Pakistani Cuisine</h2>
+            <p>Delicious food delivered to your home and office</p>
+            <a href="#order" class="btn-primary">Order Now</a>
+        </div>
+    </section>
+
+    <!-- Daily Menu Section -->
+    <section id="daily-menu" class="section">
+        <div class="container">
+            <h2 class="section-title">📅 Daily Menu</h2>
+            <div class="daily-menu-grid">
+                <div class="day-item">
+                    <h3>Sunday</h3>
+                    <p>Anda Chany</p>
+                    <span class="price">Rs. 120</span>
+                </div>
+                <div class="day-item">
+                    <h3>Monday</h3>
+                    <p>Chicken Yakhni Plao</p>
+                    <span class="price">Rs. 160</span>
+                </div>
+                <div class="day-item">
+                    <h3>Tuesday</h3>
+                    <p>Mix Sabzi</p>
+                    <span class="price">Rs. 120</span>
+                </div>
+                <div class="day-item">
+                    <h3>Wednesday</h3>
+                    <p>Dal Chawal</p>
+                    <span class="price">Rs. 130</span>
+                </div>
+                <div class="day-item">
+                    <h3>Thursday</h3>
+                    <p>Chicken Karahi</p>
+                    <span class="price">Rs. 170</span>
+                </div>
+                <div class="day-item">
+                    <h3>Friday</h3>
+                    <p>Chicken Biryani</p>
+                    <span class="price">Rs. 170</span>
+                </div>
+                <div class="day-item">
+                    <h3>Saturday</h3>
+                    <p>Chicken Alo Gosht</p>
+                    <span class="price">Rs. 160</span>
+                </div>
+            </div>
+            <div class="note">
+                <p>⏰ Out of menu orders delivered in 2 hours</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Full Menu Section -->
+    <section id="full-menu" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title">🍽️ Full Menu</h2>
+            
+            <div class="menu-category">
+                <h3>Main Course</h3>
+                <div class="menu-grid">
+                    <div class="menu-item">
+                        <h4>Chicken Yakhni Plow</h4>
+                        <span class="price-tag">Rs. 160</span>
+                    </div>
+                    <div class="menu-item">
+                        <h4>Chicken Biryani</h4>
+                        <span class="price-tag">Rs. 170</span>
+                    </div>
+                    <div class="menu-item">
+                        <h4>Chicken Nihari</h4>
+                        <span class="price-tag">Rs. 150</span>
+                    </div>
+                    <div class="menu-item">
+                        <h4>Chicken Karahi</h4>
+                        <span class="price-tag">Rs. 170</span>
+                    </div>
+                    <div class="menu-item">
+                        <h4>Alo Ghosh</h4>
+                        <span class="price-tag">Rs. 160</span>
+                    </div>
+                    <div class="menu-item">
+                        <h4>Anda Cholay</h4>
+                        <span class="price-tag">Rs. 120</span>
+                    </div>
+                    <div class="menu-item">
+                        <h4>Dal Chawal</h4>
+                        <span class="price-tag">Rs. 130</span>
+                    </div>
+                    <div class="menu-item">
+                        <h4>Mix Sabzi</h4>
+                        <span class="price-tag">Rs. 120</span>
+                    </div>
+                    <div class="menu-item">
+                        <h4>Mix Dal</h4>
+                        <span class="price-tag">Rs. 130</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-category">
+                <h3>Dessert Bar</h3>
+                <div class="menu-grid">
+                    <div class="menu-item">
+                        <h4>Shahi Kheer</h4>
+                        <span class="price-tag">Rs. 200</span>
+                    </div>
+                    <div class="menu-item">
+                        <h4>Fruit Trifal</h4>
+                        <span class="price-tag">Rs. 180</span>
+                    </div>
+                    <div class="menu-item">
+                        <h4>Pastry</h4>
+                        <span class="price-tag">Rs. 180</span>
+                    </div>
+                    <div class="menu-item">
+                        <h4>Zarda</h4>
+                        <span class="price-tag">Rs. 120</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Order Section -->
+    <section id="order" class="section">
+        <div class="container">
+            <h2 class="section-title">📝 Order Now</h2>
+            <form class="order-form" id="orderForm">
+                <div class="form-group">
+                    <label for="name">Full Name *</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone Number *</label>
+                    <input type="tel" id="phone" name="phone" required>
+                </div>
+                <div class="form-group">
+                    <label for="address">Delivery Address *</label>
+                    <textarea id="address" name="address" rows="3" required></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="items">Select Items *</label>
+                    <select id="items" name="items" multiple size="6">
+                        <option value="Chicken Yakhni Plow - Rs. 160">Chicken Yakhni Plow - Rs. 160</option>
+                        <option value="Chicken Biryani - Rs. 170">Chicken Biryani - Rs. 170</option>
+                        <option value="Chicken Nihari - Rs. 150">Chicken Nihari - Rs. 150</option>
+                        <option value="Chicken Karahi - Rs. 170">Chicken Karahi - Rs. 170</option>
+                        <option value="Alo Ghosh - Rs. 160">Alo Ghosh - Rs. 160</option>
+                        <option value="Anda Cholay - Rs. 120">Anda Cholay - Rs. 120</option>
+                        <option value="Dal Chawal - Rs. 130">Dal Chawal - Rs. 130</option>
+                        <option value="Mix Sabzi - Rs. 120">Mix Sabzi - Rs. 120</option>
+                        <option value="Mix Dal - Rs. 130">Mix Dal - Rs. 130</option>
+                        <option value="Shahi Kheer - Rs. 200">Shahi Kheer - Rs. 200</option>
+                        <option value="Fruit Trifal - Rs. 180">Fruit Trifal - Rs. 180</option>
+                        <option value="Pastry - Rs. 180">Pastry - Rs. 180</option>
+                        <option value="Zarda - Rs. 120">Zarda - Rs. 120</option>
+                    </select>
+                    <small>Hold Ctrl/Cmd to select multiple items</small>
+                </div>
+                <div class="form-group">
+                    <label for="quantity">Quantity</label>
+                    <input type="number" id="quantity" name="quantity" min="1" value="1">
+                </div>
+                <div class="form-group">
+                    <label for="notes">Special Instructions</label>
+                    <textarea id="notes" name="notes" rows="2"></textarea>
+                </div>
+                <button type="submit" class="btn-primary btn-full">Submit Order via WhatsApp</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Catering Section -->
+    <section id="catering" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title"> Catering Services</h2>
+            <div class="catering-info">
+                <div class="catering-card">
+                    <h3>🎊 Events</h3>
+                    <p>Weddings, Birthday Parties, and All Events</p>
+                </div>
+                <div class="catering-card">
+                    <h3>🚚 Free Delivery</h3>
+                    <p>Free delivery on orders for 10+ persons</p>
+                </div>
+                <div class="catering-card">
+                    <h3>📋 Custom Menu</h3>
+                    <p>Custom menu available for large orders</p>
+                </div>
+                <div class="catering-card">
+                    <h3>🎂 Birthday Cakes</h3>
+                    <p>Desert bar and birthday cakes available</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title">📞 Contact Us</h2>
+            <div class="contact-info">
+                <div class="contact-item">
+                    <h3>📱 Phone / WhatsApp</h3>
+                    <p><a href="tel:+966590035476">+966 590035476</a></p>
+                    <p><a href="tel:03405228276">0340-5228276</a></p>
+                </div>
+                <div class="contact-item">
+                    <h3>📷 Instagram</h3>
+                    <p><a href="https://instagram.com/tehreemkitchen" target="_blank">@tehreemkitchen</a></p>
+                </div>
+                <div class="contact-item">
+                    <h3>🌐 Website</h3>
+                    <p><a href="https://www.tehreemkitchen.com" target="_blank">www.tehreemkitchen.com</a></p>
+                </div>
+                <div class="contact-item">
+                    <h3> Availability</h3>
+                    <p>Food available on daily basis for your home and offices</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Tehreem Kitchen. All rights reserved.</p>
+            <p>Made with ❤️ for food lovers</p>
+        </div>
+    </footer>
+
+    <!-- Install PWA Button -->
+    <div id="installPrompt" class="install-prompt" style="display: none;">
+        <p>📱 Install Tehreem Kitchen App</p>
+        <button onclick="installApp()">Install</button>
+        <button onclick="closeInstall()">Later</button>
+    </div>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
